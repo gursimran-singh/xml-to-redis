@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+  app:
+    build: ./node
+    container_name: app
+    # volumes:
+    #   - ./node/app/export.js:/usr/src/app/export.js
+    #   - ./node/app/export.test.js:/usr/src/app/export.test.js

@@ -1,0 +1,20 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "Exporting data from XML file to Redis",
+    "main": "export.js",
+    "scripts": {
+        "start": "node export.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "redis": "3.1.2",
+        "xml2js": "^0.4.23",
+        "yargs": "^17.6.2"
+    },
+    "author": "Gursimran Singh",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.3.1"
+    }
+}
