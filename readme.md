@@ -1,6 +1,6 @@
 # Xml to Redis Importer
 
-A commandl ine utility to import key value pair form XML file to Redis
+A command line utility to import key value pair form XML file to Redis
 
 From root of the folder execute the following command to build docker images and containers.
 ```
